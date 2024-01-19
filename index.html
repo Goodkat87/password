@@ -4,10 +4,38 @@
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Password Generator</title>
-    <link rel='stylesheet' href='./public/css/app.css'>
+    <link rel='stylesheet' href="./public/css/app.css">
 </head>
 <body>
+    <div>
+        <h1>Password Generator</h1>
+        <div>
+            <p id="password"></p>
+            <button onclick="copy()"><img src="./src/img/clipboard.png" alt="clipboard"></button>
+        </div>
+        <form>
+            <label for="passwordlenght">password lenght</label>
+            <input type="number" value="0">
+        </form>
+        <form>
+            <label for="passwordlenght">include uppercase letters</label>
+            <input type="checkbox">
+        </form>
+        <form>
+            <label for="passwordlenght">include lowercase letters</label>
+            <input type="checkbox">
+        </form>
+        <form>
+            <label for="passwordlenght">include numbers</label>
+            <input type="checkbox">
+        </form>
+        <form>
+            <label for="passwordlenght">include symboles</label>
+            <input type="checkbox">
+        </form>
 
+
+    </div>
 
     <!------------------------------------ script ------------------------>
     <script type=module src='./public/js/main.js'></script>

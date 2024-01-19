@@ -1,3 +1,54 @@
-
+body {
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  width: 100%;
+  background-color: #33328f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body div {
+  background-color: #201f52;
+  height: 70%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+body div h1 {
+  color: white;
+}
+body div div {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #151431;
+  height: 10%;
+}
+body div div p {
+  width: 75%;
+  height: 100%;
+}
+body div div button {
+  width: 20%;
+  height: 90%;
+  background-color: #33328f;
+  border: 2px #151431 solid;
+}
+body div form {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+body div form label {
+  color: white;
+}
+body div form input {
+  width: 10%;
+  accent-color: green;
+}
 
 /*# sourceMappingURL=app.css.map */
