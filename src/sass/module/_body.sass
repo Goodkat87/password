@@ -9,12 +9,13 @@ body
     align-items: center
     div
         background-color: #201f52
-        height: 70%
+        height: max-content
         width: 25%
         display: flex
         flex-direction: column
         align-items: center
         gap: 1em
+        padding-bottom: 20px
         h1
             color: white
         div
@@ -26,10 +27,14 @@ body
             height: 10%
             p
                 width: 75%
-                height: 100%
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 30px
+                color: white 
             button
-                width: 20%
-                height: 90%
+                width: 15%
+                height: 100%
                 background-color: #33328f
                 border: 2px #151431 solid
         form
@@ -41,3 +46,8 @@ body
             input
                 width: 10%
                 accent-color: green 
+    button
+        background-color: #33328f
+        color: white
+        height: 50px
+        width: 75%
